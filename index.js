@@ -2,11 +2,9 @@
 function theBeatlesPlay(arrayOfMusicians, arrayOfInstruments) {
   var newArray = [];
   for (var i = 0; i < arrayOfMusicians.length; i++) {
-    for (var j = 0; i < arrayOfInstruments.length; i++) {
-      var playerInstrument = `${arrayOfMusicians[i]} plays ${arrayOfInstruments[j]}`;
+      var playerInstrument = `${arrayOfMusicians[i]} plays ${arrayOfInstruments[i]}`;
       newArray.push(playerInstrument);
     }
-  }
   return newArray;
 }
 
