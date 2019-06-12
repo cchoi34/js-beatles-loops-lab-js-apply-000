@@ -25,6 +25,7 @@ function iLoveTheBeatles(num) {
   let counter = 0;
   
   do {
-    lovingTheBeatles
-  }
+    lovingTheBeatles.push("I love the Beatles!");
+    counter++;
+  } while (num < 15)
 }
